@@ -52,6 +52,17 @@ Prompt (Arabic + English summary)
 - التشغيل والتحقق:
   - ثبتت الحزم محلياً ثم شغّلت `npm run dev`. الخادم بدأ بنجاح (في جهازك انتقل إلى http://localhost:8081/ إذا كان 8080 مستخدم).
 
+## التغييرات الأخيرة (أكتوبر 2025)
+
+- تم رفع المشروع بالكامل إلى مستودع GitHub جديد: 
+  https://github.com/starGt324/Devis-subventionn-s.git
+- تم ربط الريموت وتنفيذ جميع أوامر git (init, add, commit, branch -M main, push -u origin main).
+- تم إضافة وصف مختصر للمستودع:
+  - العربية: منصة إدارة عروض الأسعار B2B و الأتمتة للشركات في سويسرا وأوروبا وشمال أفريقيا.
+  - الفرنسية: Plateforme de gestion et d’automatisation des devis B2B pour la Suisse, l’Europe et l’Afrique du Nord.
+- جميع التعديلات والملفات (SEO, accessibility, image-seo.csv, README, .env, إلخ) أصبحت متاحة على GitHub.
+- يمكنك الآن مشاركة المستودع أو العمل عليه مع فريقك مباشرة من GitHub.
+
 ## تفسير التغييرات ولماذا تمّت
 - إضافة/تحسين meta tags (title, description, keywords) → لتحسين معدل النقر في نتائج البحث ووضوح العرض الجغرافي والوظيفي للموقع.
 - Open Graph tags → تحسّن طريقة ظهور الروابط عند المشاركة في الشبكات الاجتماعية.
