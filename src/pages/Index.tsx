@@ -98,7 +98,7 @@ export default function Index() {
     "@graph": [
       {
         "@type": "Organization",
-        "name": "AH Digital - Devis subventionnés",
+        "name": "Devis subventionnés",
         "url": "https://devis-front.vercel.app/",
         "logo": "https://devis-front.vercel.app/favicon.ico"
       },
@@ -154,11 +154,11 @@ export default function Index() {
       {/* Logo & Title */}
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-primary-foreground font-bold text-lg shadow-sm">
-          AH
+          DS
         </div>
         <div>
           <h1 className="text-base sm:text-lg font-bold text-foreground">
-            AH Digital — Devis subventionnés
+            Devis subventionnés
           </h1>
           <p className="text-xs sm:text-sm text-muted-foreground">
             Photovoltaïque & Pompes à chaleur — Suisse romande
@@ -726,9 +726,9 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-primary-foreground font-bold">
-                  AH
+                  DS
                 </div>
-                <strong className="text-lg text-foreground">AH Digital</strong>
+                <strong className="text-lg text-foreground">Devis subventionnés</strong>
               </div>
               <p className="text-sm text-muted-foreground">
                 Service de mise en relation — prestation gratuite
