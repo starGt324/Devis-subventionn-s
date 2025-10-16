@@ -98,14 +98,14 @@ export default function Index() {
     "@graph": [
       {
         "@type": "Organization",
-        "name": "Devis subventionnés",
+        "name": "Comparatifdevis",
         "url": "https://devis-front.vercel.app/",
         "logo": "https://devis-front.vercel.app/favicon.ico"
       },
       {
         "@type": "WebPage",
-        "name": "Devis subventionnés - Automatisation des devis B2B",
-        "description": "Transformez vos devis en contrats signés. Plateforme automatisée pour créer, gérer et suivre vos devis B2B en Suisse Romande, UE et Afrique du Nord.",
+        "name": "Comparatifdevis- Automatisation des devis B2B et B2C",
+        "description": "Transformez vos devis en contrats signés. Plateforme automatisée pour créer, gérer et suivre vos devis B2B et B2C en Suisse Romande, UE et Afrique du Nord.",
         "url": "https://devis-front.vercel.app/"
       }
     ]
