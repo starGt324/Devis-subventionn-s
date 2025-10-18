@@ -63,6 +63,38 @@ Prompt (Arabic + English summary)
 - جميع التعديلات والملفات (SEO, accessibility, image-seo.csv, README, .env, إلخ) أصبحت متاحة على GitHub.
 - يمكنك الآن مشاركة المستودع أو العمل عليه مع فريقك مباشرة من GitHub.
 
+## التحديثات الأخيرة (18 أكتوبر 2025)
+
+### تغييرات الهوية البصرية
+- تغيير اسم العلامة التجارية من "Comparatifdevis" إلى "AH Digital - Devis subventionnés"
+- تحديث الشعار من "CD" إلى "AH" في جميع أنحاء التطبيق
+- تركيز العرض على B2B فقط (إزالة إشارات B2C)
+
+### تحديثات SEO
+1. تحديثات في `index.html`:
+   - تحديث عنوان الصفحة إلى: "Devis subventionnés - Automatisation des Devis B2B en Suisse et UE"
+   - تحديث وصف meta لعكس التركيز على B2B
+   - تحديث الكلمات المفتاحية لتناسب نموذج B2B
+   - تحديث meta author إلى "Devis subventionnés"
+   - تحديث عنوان Open Graph
+
+2. تحديثات في `src/pages/Index.tsx`:
+   - تحديث بيانات JSON-LD لتعكس الهوية الجديدة
+   - تحديث اسم المنظمة إلى "AH Digital - Devis subventionnés"
+   - تحديث الوصف ليركز على خدمات B2B
+
+### تحديثات البيئة
+- إضافة متغيرات Cloudinary في `.env`:
+  ```
+  CLOUDINARY_URL=cloudinary://922742942891145:rAmBFDXj_aUQygGWw2QE4INASbo@dfdshe39z
+  VITE_CLOUDINARY_CLOUD_NAME=dfdshe39z
+  VITE_CLOUDINARY_UPLOAD_PRESET=devis_app
+  ```
+
+### مراجعة وتنظيف
+- تحديث وتنظيف ملف `SEO_summary.txt` لعكس التغييرات الجديدة
+- دفع جميع التغييرات إلى فرع `test` على GitHub
+
 ## تفسير التغييرات ولماذا تمّت
 - إضافة/تحسين meta tags (title, description, keywords) → لتحسين معدل النقر في نتائج البحث ووضوح العرض الجغرافي والوظيفي للموقع.
 - Open Graph tags → تحسّن طريقة ظهور الروابط عند المشاركة في الشبكات الاجتماعية.
